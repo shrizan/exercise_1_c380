@@ -63,3 +63,36 @@ html {
   font-size: 5rem;
   font-weight: 700;
 }
+
+.table {
+  min-width: 100%;
+  border-collapse: collapse;
+  font-size: 1.5rem;
+}
+
+.table tr {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.table th,
+td {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media screen and (min-width:481px) {
+  .table {
+    min-width: 85%;
+    border-collapse: collapse;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width:769px) {
+  .table {
+    min-width: 57%;
+    border-collapse: collapse;
+    font-size: 1.5rem;
+  }
+}
